@@ -1,4 +1,6 @@
- <symbol id="icon-logo" viewBox="0 0 35 32">
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-logo" viewBox="0 0 35 32">
       <path fill="#ecd979" d="M15.392 11.53h-1.098v-1.113h1.098v1.113z" style="fill:var(--color1, #ecd979)"/>
       <path fill="#ecd979" d="M14.294 11.53h-1.098v-1.113h1.098v1.113zM8.805 11.53H7.707v-1.113h1.098v1.113zM7.706 11.53H6.608v-1.113h1.098v1.113z" style="fill:var(--color1, #ecd979)"/>
       <path fill="#ecd979" d="M6.609 11.53H5.511v-1.113h1.098v1.113zM28.566 10.417h-1.098V9.304h1.098v1.113zM27.468 10.417H26.37V9.304h1.098v1.113zM19.783 10.417h-1.098V9.304h1.098v1.113zM18.685 10.417h-1.098V9.304h1.098v1.113zM16.489 10.417h-1.098V9.304h1.098v1.113z" style="fill:var(--color1, #ecd979)"/>
@@ -24,3 +26,5 @@
       <path fill="#ecd979" d="M14.294 2.626h-1.098V1.513h1.098v1.113zM6.609 2.626H5.511V1.513h1.098v1.113zM5.511 2.626H4.413V1.513h1.098v1.113zM4.413 2.626H3.315V1.513h1.098v1.113zM35.153 1.513h-1.098V.4h1.098v1.113zM34.055 1.513h-1.098V.4h1.098v1.113zM29.664 1.513h-1.098V.4h1.098v1.113zM28.566 1.513h-1.098V.4h1.098v1.113zM27.468 1.513H26.37V.4h1.098v1.113zM20.881 1.513h-1.098V.4h1.098v1.113zM14.294 1.513h-1.098V.4h1.098v1.113zM7.706 1.513H6.608V.4h1.098v1.113z" style="fill:var(--color1, #ecd979)"/>
       <path fill="#ecd979" d="M6.609 1.513H5.511V.4h1.098v1.113zM5.511 1.513H4.413V.4h1.098v1.113zM1.12 1.513H.022V.4H1.12v1.113z" style="fill:var(--color1, #ecd979)"/>
     </symbol>
+  </defs>
+</svg>
