@@ -5,7 +5,8 @@ body {
 }
 
 section {
-  margin-bottom: 80px;
+  position: relative;
+  padding-bottom: 80px;
 }
 
 .container {
@@ -15,17 +16,22 @@ section {
   margin-right: auto;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+h1 {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.23;
+  letter-spacing: -0.03em;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+}
+
+.accented {
+  color: #ecd979;
 }
 
 .backdrop.is-open {
@@ -36,17 +42,27 @@ section {
 
 @media screen and (min-width: 768px) {
   section {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
   .container {
     max-width: 768px;
     padding: 0 32px;
   }
+
+  h1 {
+    font-size: 54px;
+    line-height: 1.19;
+  }
+
+  h2 {
+    font-size: 44px;
+    line-height: 1.45;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   section {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
 
   .container {
@@ -58,5 +74,10 @@ section {
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
+  }
+
+  h1 {
+    font-size: 64px;
+    line-height: 1.16;
   }
 }
