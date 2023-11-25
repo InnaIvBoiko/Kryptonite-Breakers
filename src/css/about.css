@@ -1,0 +1,47 @@
+/*------------- /COMMON STYLES -----------------*/
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/*------------- /COMMON STYLES -----------------*/
+/*------------- MOBILE STYLES -----------------*/
+
+/*------------- /MOBILE STYLES -----------------*/
+/*------------- TABLET STYLES -----------------*/
+@media screen and (min-width: 768px) {
+    section {
+      padding-bottom: 100px;
+    }
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+      }
+    
+      h2 {
+        font-size: 44px;
+        line-height: 1.45;
+      }
+    }
+
+/*------------- /TABLET STYLES -----------------*/
+/*------------- DESKTOP STYLES -----------------*/
+@media screen and (min-width: 1280px) {
+    section {
+      padding-bottom: 150px;
+    }
+  
+    .container {
+      max-width: 1280px;
+      padding: 0 100px;
+    }
+  }
+/*------------- /DESKTOP STYLES -----------------*/
+/*------------- /DESKTOP-XL STYLES -----------------*/
+@media screen and (min-width: 1440px) {
+    .container {
+      max-width: 1440px;
+    }
+  }
+  
+/*------------- /DESKTOP-XL STYLES -----------------*/
