@@ -1,11 +1,5 @@
 
 /*                MOBILE ORDER SECTION                         */
-
-.container {
-    padding: 0 20px;
-}
-
-
 .order-bg {
     background-image: url(/img/order/bg-girl-order-mob.jpg);
     background-size: cover;
@@ -195,7 +189,7 @@ screen and (min-device-pixel-ratio: 2) {
 }
 
 .order-image {
-    margin-left: 90px;
+    margin-left: 66px;
 }
     
 .another-order-bg {
@@ -257,9 +251,7 @@ screen and (min-device-pixel-ratio: 2) {
 .order-image {
     position: absolute;
     top: 0;
-    left: 0;
-    margin-right: 50px;
-
+    left: 48px; 
 }
 
 .another-order-bg {
