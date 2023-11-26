@@ -1,0 +1,164 @@
+/*------------- /COMMON STYLES -----------------*/
+.about-us {
+  overflow: hidden;
+}
+.about-us-container {
+  position: relative;
+}
+
+.section-title {
+  margin-bottom: 40px;
+}
+.about-us-text {
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.04em;
+color: rgba(252, 249, 249, 0.40);
+}
+.about-us-first-text {
+  margin-bottom: 20px;
+}
+.about-description {
+  margin-bottom: 50px;
+}
+.about-img-thumb {
+  border-radius: 4px;
+  overflow: hidden;
+  height: 499px;
+  z-index: 999999;
+  opacity: 1;
+  
+}
+.about-us-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.background-container {
+  position: absolute;
+  background-image: url("/img/bg-elements/bg-el-about-mob.png");
+  width: 459px;
+  height: 408px;
+  padding-right: 0.61px;
+  padding-bottom: 0.45px;
+  left: 105px;
+  bottom: -62px;
+  z-index: 1;
+}
+
+
+
+/*------------- /COMMON STYLES -----------------*/
+/*------------- MOBILE STYLES -----------------*/
+@media  screen and (min-resolution: 192dpi) and (max-width: 767px),
+        screen and (min-resolution: 2dppx) and (max-width: 767px),
+        screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+          .background-container {
+            background-image: url("/img/bg-elements/bg-el-about-mob@2x.png");
+          }
+}
+
+/*------------- /MOBILE STYLES -----------------*/
+/*------------- TABLET STYLES -----------------*/
+@media screen and (min-width: 768px) {
+
+      .background-container {
+        background-image: url("/img/bg-elements/bg-el-about-tab.png");
+        width: 544px;
+        height: 484px;
+        padding-right: 0.73px;
+        left: 367.34px;
+        bottom: -50px;
+      }
+      .about-description {
+        margin-bottom: 40px;
+      }
+      .about-us-text {
+        font-size: 16px;
+      }
+      .about-img-thumb {
+        height: 545px;
+      }
+      
+    }
+    @media  screen and (min-resolution: 192dpi) and (min-width: 768px),
+            screen and (min-resolution: 2dppx) and (min-width: 768px),
+            screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+                .background-container {
+                    background-image: url("/img/bg-elements/bg-el-about-tab@2x.png");
+                }
+    }
+
+/*------------- /TABLET STYLES -----------------*/
+
+
+/*------------- DESKTOP STYLES -----------------*/
+@media screen and (min-width: 1280px) {
+
+    .about-us-container {
+      display: flex;
+      gap: 50px;
+      align-items: center;
+    }
+    .about-description {
+      width: 436px;
+      height: 454px;
+      margin-bottom: 0;  
+    }
+    .section-title {
+      margin-bottom: 40px;
+    }
+    
+    .about-us-first-text {
+      margin-bottom: 20px;
+    }
+   
+    .about-img-thumb {
+      width: 594px;
+    }
+    .background-container {
+      background-image: url("/img/bg-elements/bg-el-about-desk.png");
+      width: 544px;
+      height: 483px;
+      padding: 0 0.73px 0.54px 0;
+      left: 895px;
+      bottom: -80px;
+    }
+
+  }
+  @media  screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+      .background-container {
+          background-image: url("/img/bg-elements/bg-el-about-desk@2x.png");
+      }
+}
+/*------------- /DESKTOP STYLES -----------------*/
+
+
+/*------------- /DESKTOP-XL STYLES -----------------*/
+@media screen and (min-width: 1440px) {
+  .about-description {
+    width: 481px;
+    height: 389px; 
+  }
+  .about-img-thumb {
+    width: 709px;
+  }
+    
+    .background-container {
+      background-image: url("/img/bg-elements/bg-el-about-desk-xl.png");
+
+    }
+  }
+  @media  screen and (min-resolution: 192dpi) and (min-width: 1440px),
+  screen and (min-resolution: 2dppx) and (min-width: 1440px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+      .background-container {
+          background-image: url("/img/bg-elements/bg-el-about-desk-xl@2x.png");
+      }
+}
+  
+/*------------- /DESKTOP-XL STYLES -----------------*/
