@@ -39,38 +39,43 @@
 }
 
 @media screen and (min-width: 768px) {
-  .collection-list {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .collection-list-item {
-    width: calc((100% - 20px) / 2);
-  }
-  .collection-item-title {
-    font-size: 18px;
-    word-spacing: -1px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
-  .collection-item-price {
-    font-size: 18px;
-  }
-  .collection-background {
-    top: 221px;
-  }
+    .collection-list {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .collection-list-item {
+            width: calc((100% - 20px) / 2);
+            
+        }
+                .collection-item-title {
+                    font-size: 18px;
+                    word-spacing: -1px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+                                .collection-item-price {
+                                    font-size: 18px;
+                                }
+                                                                .collection-background {
+                                                                   
+                                        
+                                                                    top: 221px;
+                                                                    
+                                                                }
 }
 
 @media screen and (min-width: 1280px) {
-  .collection-list-item {
-    width: calc((100% - 40px) / 3);
-  }
-  .collection-list {
-    display: flex;
-    justify-content: space-between;
-    gap: 0;
-  }
-  .collection-list-item:nth-child(-n + 3) {
-    margin-bottom: 40px;
-  }
+    .collection-list-item {
+            width: calc((100% - 40px) / 3);
+    
+        }
+        .collection-list {
+            display: flex;
+            justify-content: space-between;
+            gap: 0;
+        }
+        .collection-list-item:nth-child(-n+3) {
+            margin-bottom: 40px;
+        }
 }
