@@ -85,6 +85,11 @@
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    display: flex;
+     flex-direction: column;
+    overflow: auto;
+
+    
 }
 
 .backdrop.is-open {
@@ -101,13 +106,8 @@
  height: 100vh;
  min-height: 812px;
  z-index: 1;
- padding: 20px;
- display: flex;
- flex-direction: column;
- overflow: auto;
- visibility: hidden;
  background-color: #ECD979; 
- 
+ padding: 20px;
 }
 
 .header-mobile-bg-el{
@@ -195,10 +195,6 @@ div.header-mobile-menu .header-mobile-menu-list{
 
 
 @media screen and (min-width: 768px) {
-
-   .header-social-list {
-   
-   }
 
    .header-icon-burger-menu{
     width: 44px;
@@ -295,9 +291,4 @@ div.header-mobile-menu .header-mobile-menu-list{
      }
 
    
-}
-
-
-@media screen and (min-width: 1440px) {
-
 }
