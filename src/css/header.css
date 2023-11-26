@@ -108,28 +108,24 @@
  z-index: 1;
  background-color: #ECD979; 
  padding: 20px;
-}
-
-.header-mobile-bg-el{
-  background-image: url(../img/bg-elements/bg-el-menu-mob.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
+ background-image: url(../img/bg-elements/bg-el-menu-mob.png);
+ background-repeat: no-repeat;
+ background-position: bottom;
+ background-size: contain;
 }
 
 
-@media  (-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px) {
     .header-mobile-menu {
-    background-image:
-     url(../img/bg-elements/bg-el-menu-mob@2x.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
+        background-image: url(../img/bg-elements/bg-el-menu-mob@2x.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
     }
-}
 
+}
 .header-mobile-container{
     display: flex;
     justify-content: space-between;
@@ -204,18 +200,18 @@ div.header-mobile-menu .header-mobile-menu-list{
    .header-mobile-menu{
     width: 380px;
     min-height: 1024px;
-    background-image: url(../img/bg-elements/bg-el-menu-tab.png);
+    background-image: url(../img/bg-elements/bg-el-menu-mob.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
    }
 
-   @media (-webkit-min-device-pixel-ratio: 2),
-   (min-resolution: 192dpi),
-   (min-resolution: 2dppx) {
+
+   @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+   screen and (min-resolution: 2dppx) and (min-width: 768px),
+   screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px) {
     .header-mobile-menu {
-    background-image:
-     url(../img/bg-elements/bg-el-menu-tab@2x.png);
+    background-image: url(../img/bg-elements/bg-el-menu-tab@2x.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
