@@ -44,7 +44,7 @@
             flex-wrap: wrap;
         }
         .collection-list-item {
-            width: calc((100% - 20px)/2);
+            width: calc((100% - 20px) / 2);
             
         }
                 .collection-item-title {
@@ -67,7 +67,7 @@
 
 @media screen and (min-width: 1280px) {
     .collection-list-item {
-            width: calc((100% - 40px)/3);
+            width: calc((100% - 40px) / 3);
     
         }
         .collection-list {
