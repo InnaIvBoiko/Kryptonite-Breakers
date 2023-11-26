@@ -38,7 +38,7 @@ color: rgba(252, 249, 249, 0.40);
 }
 .background-container {
   position: absolute;
-  background-image: url("../img/bg-elements/bg-el-about-mob.png");
+  background-image: url("/img/bg-elements/bg-el-about-mob.png");
   width: 459px;
   height: 408px;
   padding-right: 0.61px;
@@ -56,7 +56,7 @@ color: rgba(252, 249, 249, 0.40);
         screen and (min-resolution: 2dppx) and (max-width: 767px),
         screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
           .background-container {
-            background-image: url("../img/bg-elements/bg-el-about-mob@2x.png");
+            background-image: url("/img/bg-elements/bg-el-about-mob@2x.png");
           }
 }
 
@@ -65,7 +65,7 @@ color: rgba(252, 249, 249, 0.40);
 @media screen and (min-width: 768px) {
 
       .background-container {
-        background-image: url("../img/bg-elements/bg-el-about-tab.png");
+        background-image: url("/img/bg-elements/bg-el-about-tab.png");
         width: 544px;
         height: 484px;
         padding-right: 0.73px;
@@ -87,7 +87,7 @@ color: rgba(252, 249, 249, 0.40);
             screen and (min-resolution: 2dppx) and (min-width: 768px),
             screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
                 .background-container {
-                    background-image: url("../img/bg-elements/bg-el-about-tab@2x.png");
+                    background-image: url("/img/bg-elements/bg-el-about-tab@2x.png");
                 }
     }
 
@@ -119,7 +119,7 @@ color: rgba(252, 249, 249, 0.40);
       width: 594px;
     }
     .background-container {
-      background-image: url("../img/bg-elements/bg-el-about-desk.png");
+      background-image: url("/img/bg-elements/bg-el-about-desk.png");
       width: 544px;
       height: 483px;
       padding: 0 0.73px 0.54px 0;
@@ -132,7 +132,7 @@ color: rgba(252, 249, 249, 0.40);
   screen and (min-resolution: 2dppx) and (min-width: 1280px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
       .background-container {
-          background-image: url("../img/bg-elements/bg-el-about-desk@2x.png");
+          background-image: url("/img/bg-elements/bg-el-about-desk@2x.png");
       }
 }
 /*------------- /DESKTOP STYLES -----------------*/
@@ -149,7 +149,7 @@ color: rgba(252, 249, 249, 0.40);
   }
     
     .background-container {
-      background-image: url("../img/bg-elements/bg-el-about-desk-xl.png");
+      background-image: url("/img/bg-elements/bg-el-about-desk-xl.png");
 
     }
   }
@@ -157,7 +157,7 @@ color: rgba(252, 249, 249, 0.40);
   screen and (min-resolution: 2dppx) and (min-width: 1440px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
       .background-container {
-          background-image: url("../img/bg-elements/bg-el-about-desk-xl@2x.png");
+          background-image: url("/img/bg-elements/bg-el-about-desk-xl@2x.png");
       }
 }
   
