@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/Kryptonite-Breakers/assets/apple-touch-icon-d7eb00d4.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="data:image/png;base64,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"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAA3dJREFUOE8d099r1XUYB/D3+/n+OKfZpvulnmSlObe5cDeDLuzCbiySCp3QD7CRRBdF0cWwtjOFLTcnJasWlEOIJISVy7sVQYZBIUEFOtnOjm6kBmud8z1H51zH7zmf54n6F17w4lL2cFfoc75S1uMGfL6+dfjL3Ew6BR8HGrhxLGd/bRfjjobW4S/s5uh90T/RKVXNJGsSJ8sr8cfMZd5uJYMTJDJgcFTLcTMCgA6jgJ0DuAeCKXHugvlWdBpsJmyExrNlykXmM/2TJAr0K4dqi8XVqLp+lORGc5gCuR5Ek5BXzLQbHg/VbR26+Hemb7cn8q4Jhxll+79K+FVvZgrXC52d45X83GCKXvwSFL9WvHDayqWqUGSfiMyva+6YmpmZ8drbU5bPXt8vwo1cmk5v2LDj2FKUPXxQnVto3D7yIwAUMn2PKbELxpo7iXBgy5aBktlAWMjGx/2qcOj3a1ju3HZvLc3ACxcGvI4H4pcNeC6uDvcGt+I2Cnro2TDBZ1SN9dWJsehOfBDkvpLT5ze1JYrkgLIw/85aLftpiP0plBScTjjgkBg/rWsbupibGVwjQdxrxhsEQvEsrxXuAm3SBbjCwlz6BRB3nKKXwDiI3VQ5U9fWcT7KXnqWEpwPFGFs5aMO9rPQ9pC8FTr7MCbfZzTXP1E29nli+0FmBdYcVNacrq4NStFyYVyAidptiW9y86UnfPMChbX/BwywBsAgo+n+Jib5mql1GPUzGFNCaapd5w8tFpFMtbQXc9npnQJ9FdBzBm4RsIsmvc70EdrVsUTRyz2qsdYReD329ECg8ooIUBsHo0XGLeZZ2pHv0bCXBh++/KCo3Gjcmlxg7o90qnHzscXcXLqH4MP1LcFbS5dXEmFV8oiq3iTxuMFONLSM/LI027/TFx4P4HdVt+DW0uWVOuYz6clkInyjFLsmL/Su3l1evT+ZDLoBnRGyXFFWEbaZYLZ+MZiKNt3rJBOzavHTQq5nPps+C2DZC1Z71kWrd6Oaho8INjjV74TSCNqDBrtEk26F9ja2HPupMH/kSXM6KMIh3r7W2xxXZFQ8Xi0gGKwX91BF4Yu5D9Tha0/4lNG+BeR70/i2SdDsGYYNNkHH35jP9nWJMKvKEVJP128bmVxZSG+4F9uLdS7xSVFcq6N2NLYNn/m/c6lwEmqzoeqpmBz7F3HHvXk9bzD+AAAAAElFTkSuQmCC"
+    />
+    <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiIiwic2hvcnRfbmFtZSI6IiIsImljb25zIjpbeyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtMTkyeDE5Mi5wbmciLCJzaXplcyI6IjE5MngxOTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn0seyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtNTEyeDUxMi5wbmciLCJzaXplcyI6IjUxMng1MTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn1dLCJ0aGVtZV9jb2xvciI6IiNmZmZmZmYiLCJiYWNrZ3JvdW5kX2NvbG9yIjoiI2ZmZmZmZiIsImRpc3BsYXkiOiJzdGFuZGFsb25lIn0=" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vyshyvanka Vibes</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    
+    <link rel="stylesheet" href="/Kryptonite-Breakers/assets/index-34e415be.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="header-container">
+    <nav class="header-navigation">
+      <a href="./index.html" class="header-logo-link">
+        <img
+          src="/Kryptonite-Breakers/assets/logo-3d215253.svg"
+          alt="Site logotype"
+          width="44"
+          height="39"
+          class="header-logo-img"
+        />
+      </a>
+      <ul class="header-menu-list">
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#about">ABOUT US</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#collection">OUR COLLECTION</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#order">CUSTOMER ORDER</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#testimonials">TESTIMONIALS</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header-social-wrap">
+      <address class="header-contacts">
+        <a href="tel:+380684439426" class="header-phone-link"
+          >+380 (68) 443-94-26</a
+        >
+      </address>
+      <ul class="header-social-list">
+        <li class="header-social-item">
+          <a class="header-svg-link" href="https://www.facebook.com/goITclub/">
+            <svg class="header-social-svg" width="28" height="28">
+              <use href="/Kryptonite-Breakers/assets/icons-eaea8ff6.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-social-item">
+          <a class="header-svg-link" href="https://www.instagram.com/goitclub/">
+            <svg class="header-social-svg" width="28" height="28">
+              <use href="/Kryptonite-Breakers/assets/icons-eaea8ff6.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-social-item">
+          <a class="header-svg-link" href="https://www.youtube.com/c/GoIT">
+            <svg class="header-social-svg" width="28" height="28">
+              <use href="/Kryptonite-Breakers/assets/icons-eaea8ff6.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <button type="button" class="header-burger-btn">
+        <svg width="36" height="24" class="header-icon-burger-menu">
+          <use href="/Kryptonite-Breakers/assets/icons-eaea8ff6.svg#icon-burger-menu"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="backdrop">
+    <div class="header-mobile-menu">
+      <div class="header-mobile-container">
+        <address class="header-mobile-contacts">
+          <a href="tel:+380684439426" class="header-mobile-phone-link"
+            >+380 (68) 443-94-26</a
+          >
+        </address>
+        <button type="button" class="header-mobile-btn">
+          <svg width="36" height="36" class="header-mobile-icon">
+            <use href="/Kryptonite-Breakers/assets/icons-eaea8ff6.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+      <ul class="header-mobile-menu-list">
+        <li class="header-mobile-menu-item">
+          <a class="header-mobile-menu-link" href="#about">ABOUT US</a>
+        </li>
+        <li class="header-mobile-menu-item">
+          <a class="header-mobile-menu-link" href="#collection"
+            >OUR COLLECTION</a
+          >
+        </li>
+        <li class="header-mobile-menu-item">
+          <a class="header-mobile-menu-link" href="#order">CUSTOMER ORDER</a>
+        </li>
+        <li class="header-mobile-menu-item">
+          <a class="header-mobile-menu-link" href="#testimonials"
+            >TESTIMONIALS</a
+          >
+        </li>
+      </ul>
+      <div class="header-mobile-bg-el"></div>
+    </div>
+  </div>
+</header>
+
+    <main>
+      
+      <section class="about-us" id="about">
+    <div class="container about-us-container">
+        <div class="about-description">
+            <h2 class="section-title">About Us</h2>
+                <p class="about-us-first-text about-us-text">The store "Vyshyvanka Vibes" is a place where traditional Ukrainian vyshyvanka comes to life with new zest and style. Our store offers a wide selection of high-quality and authentic embroidery, which combines the elegance of traditional needlework and modern design.</p>
+                <p class="about-us-second-text about-us-text">In "Vyshyvanka Vibes" you will find various models of embroidery, from classic to modern, corresponding to the latest fashion trends. Our embroidery is made using natural fabrics and is embroidered by highly qualified craftsmen who convey the beauty of Ukrainian culture in every detail.We believe that vyshyvanka is not just clothing, but a symbol of national pride, the heritage of our ancestors and a way of expressing one's individuality. Each embroidery from "Vyshyvanka Vibes" has its own unique history and symbolism, which gives it a special meaning.</p>
+        </div>
+        <div class="about-img-thumb">
+            <img class="about-us-img" srcset="/Kryptonite-Breakers/assets/vyshyvanka-about-mob-81f65bcc.jpg 335w, /Kryptonite-Breakers/assets/vyshyvanka-about-tab-c691f170.jpg 704w, /Kryptonite-Breakers/assets/vyshyvanka-about-desk-a6f3cf86.jpg 594w, /Kryptonite-Breakers/assets/vyshyvanka-about-desk-xl-181dfead.jpg 709w, /Kryptonite-Breakers/assets/vyshyvanka-about-mob@2x-9e7676c8.jpg 670w, /Kryptonite-Breakers/assets/vyshyvanka-about-tab@2x-f91e8655.jpg 1408w, /Kryptonite-Breakers/assets/vyshyvanka-about-desk@2x-321b4fb0.jpg 1188w, /Kryptonite-Breakers/assets/vyshyvanka-about-desk-xl@2x-0bbc11f7.jpg 1418w"  
+        sizes="(min-width: 1440px) 709px,
+                (min-width: 1280px) 594px,
+                (min-width: 768px) 704px,
+                (max-width: 767px) 335px"
+            src="/Kryptonite-Breakers/assets/vyshyvanka-about-mob-81f65bcc.jpg" alt="embroidered sleeve" >
+        </div>
+        <div class="background-container">
+        </div>
+
+    </div>
+</section>
+
+      <section class="collection" id="collection">
+    <div class="container collection-container">
+        <h2 class="collection-title">Our collection</h2>
+    <ul class="collection-list">
+        <li class="collection-list-item">
+            <picture>
+                <source media="(min-width: 1440px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-poltava-desk-xl-68964d58.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-poltava-desk-xl@2x-0f6e0b7e.jpg 2x" type="image/jpg" />
+                <source media="(min-width: 1280px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-poltava-desk-80f20859.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-poltava-desk@2x-b5db3d9e.jpg 2x" type="image/jpg" />
+            
+                <source media="(min-width: 768px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-poltava-tab-8da75bf0.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-poltava-tab@2x-e0f3b8b1.jpg 2x" type="image/jpg" />
+            
+                <source media="(max-width: 767px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-poltava-mob-bff755bf.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-poltava-mob@2x-476ede5a.jpg 2x" type="image/jpg" />
+                <img class="collection-img" src="/Kryptonite-Breakers/assets/vyshyvanka-poltava-mob-bff755bf.jpg" alt="Vyshyvanka Poltava" loading="lazy" />
+            </picture>
+            <h3 class="collection-item-title">AUGUST Poltava women's blouseRING
+            </h3>
+            <p class="collection-item-price">3300 UAH</p>
+        </li>
+        <li class="collection-list-item">
+            <picture>
+            <source media="(min-width: 1440px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-gorgany-desk-xl-f9bd1250.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-gorgany-desk-xl@2x-0c188a5e.jpg 2x" type="image/jpg" />
+            <source media="(min-width: 1280px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-gorgany-desk-71415461.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-gorgany-desk@2x-1cb4ff12.jpg 2x" type="image/jpg" />
+        
+            <source media="(min-width: 768px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-gorgany-tab-29ba3f35.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-gorgany-tab@2x-c4af7687.jpg 2x" type="image/jpg" />
+        
+            <source media="(max-width: 767px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-gorgany-mob-39b67993.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-gorgany-mob@2x-6c5a67d6.jpg 2x" type="image/jpg" />
+            <img class="collection-img" src="/Kryptonite-Breakers/assets/vyshyvanka-gorgany-mob-39b67993.jpg" alt="Vyshyvanka Gorgany"
+                loading="lazy" />
+        </picture>
+        <h3 class="collection-item-title">Women's blouse Gorgany</h3>
+        <p class="collection-item-price">3350 UAH</p>
+    </li>
+        <li class="collection-list-item">
+            <picture>
+                <source media="(min-width: 1440px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-crimea-desk-xl-754a96ea.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-crimea-desk-xl@2x-e7df24a5.jpg 2x" type="image/jpg" />
+                <source media="(min-width: 1280px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-crimea-desk-f0355a4f.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-crimea-desk@2x-cf9734af.jpg 2x" type="image/jpg" />
+            
+                <source media="(min-width: 768px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-crimea-tab-caef31fa.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-crimea-tab@2x-17e367ad.jpg 2x" type="image/jpg" />
+            
+                <source media="(max-width: 767px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-crimea-mob-0c315a9a.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-crimea-mob@2x-66c5d253.jpg 2x" type="image/jpg" />
+                <img class="collection-img" src="/Kryptonite-Breakers/assets/vyshyvanka-crimea-mob-0c315a9a.jpg" alt="Vyshyvanka Crimea"
+                    loading="lazy" />
+            </picture>
+            <h3 class="collection-item-title">Women's blouse Crimea</h3>
+            <p class="collection-item-price">4000 UAH</p>
+        </li>
+        <li class="collection-list-item">
+            <picture>
+                <source media="(min-width: 1440px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-verkhovina-desk-xl-2bd0e47f.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-verkhovina-desk-xl@2x-057b7a75.jpg 2x" type="image/jpg" />
+                <source media="(min-width: 1280px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-verkhovina-desk-7820c506.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-verkhovina-desk@2x-fb15a55d.jpg 2x" type="image/jpg" />
+            
+                <source media="(min-width: 768px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-verkhovina-tab-0b51cb8e.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-verkhovina-tab@2x-d84c8d3d.jpg 2x" type="image/jpg" />
+            
+                <source media="(max-width: 767px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-verkhovina-mob-d891629d.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-verkhovina-mob@2x-a6d30437.jpg 2x" type="image/jpg" />
+                <img class="collection-img" src="/Kryptonite-Breakers/assets/vyshyvanka-verkhovina-mob-d891629d.jpg" alt="Vyshyvanka Verkhovina"
+                    loading="lazy" />
+            </picture>
+            <h3 class="collection-item-title">Men's shirt Verkhovina</h3>
+            <p class="collection-item-price">3100 UAH</p>
+        </li>
+        <li class="collection-list-item">
+            <picture>
+                <source media="(min-width: 1440px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-mountain-desk-xl-a5b19585.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-mountain-desk-xl@2x-f634a086.jpg 2x" type="image/jpg" />
+                <source media="(min-width: 1280px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-mountain-desk-e91bd183.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-mountain-desk@2x-5aa58ef0.jpg 2x" type="image/jpg" />
+            
+                <source media="(min-width: 768px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-mountain-tab-c94d099c.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-mountain-tab@2x-1589537e.jpg 2x" type="image/jpg" />
+            
+                <source media="(max-width: 767px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-mountain-mob-9b4a3182.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-mountain-mob@2x-c0e1366e.jpg 2x" type="image/jpg" />
+                <img class="collection-img" src="/Kryptonite-Breakers/assets/vyshyvanka-mountain-mob-9b4a3182.jpg" alt="Vyshyvanka Mountain"
+                    loading="lazy" />
+            </picture>
+            <h3 class="collection-item-title">Mountain men's shirt</h3>
+            <p class="collection-item-price">3300 UAH</p>
+        </li>
+        <li class="collection-list-item">
+            <picture>
+                <source media="(min-width: 1440px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-yasen-desk-xl-7e75acd3.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-yasen-desk-xl@2x-cc414eef.jpg 2x" type="image/jpg" />
+                <source media="(min-width: 1280px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-yasen-desk-a8cf155c.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-yasen-desk@2x-b1df4584.jpg 2x" type="image/jpg" />
+            
+                <source media="(min-width: 768px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-yasen-tab-a5d0f755.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-yasen-tab@2x-5b04aab6.jpg 2x" type="image/jpg" />
+            
+                <source media="(max-width: 767px)" srcset="/Kryptonite-Breakers/assets/vyshyvanka-yasen-mob-a4f0f68c.jpg 1x, /Kryptonite-Breakers/assets/vyshyvanka-yasen-mob@2x-f5449c67.jpg 2x" type="image/jpg" />
+                <img class="collection-img" src="/Kryptonite-Breakers/assets/vyshyvanka-yasen-mob-a4f0f68c.jpg" alt="Vyshyvanka Yasen"
+                    loading="lazy" />
+            </picture>
+            <h3 class="collection-item-title">Men's shirt Yasen</h3>
+            <p class="collection-item-price">1700 UAH</p>
+        </li>
+    </ul>
+    <picture>
+      <source media="(min-width: 1280px)" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKkAAAEsCAMAAACPAWPCAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAACxMAAAsTAQCanBgAAABmUExURUdwTOvbfOfXeOzZeezaeu3ZeevXeOvZeuzaeuzaeezXeOffgO/XeOrZeezZee/fgOraeuzYeO3Yeevaee3aeuvYee3ZeuzZeuzZee/aeurYeOzZeeraeu3Zeezaeu3Zeu3aeuzZeZCcBwEAAAAhdFJOUwBAIN9g30CAn79gICCgUBAwkHCPz3Dvr+8wkK+Qz5CAb/OAqe0AAAOcSURBVHja7d3ddqIwFIZhaFHQQUDUWtvOj/d/k7PmoNnprC0bEjLjkvc7tCZ5pAeJkWyyTMvVpcwCsrkO5tloXmqNbkCQIkWKFOkipHXuEin92HzmqEploFprvnXNNzpkN+Gij00+fHWvhdEeKVKkSJEuWVq5rBJI262L2v3GjX5Q20vzS2Z86EjpfMuWDClSpEiRIv2TJ5dW3rkazt6aWF2fa3VM6amfIA25+tXoq1uH/R+RIkWKFOnc0pVsWxqbql6Ork0/XioDqV8DKxlTlxaj94f9eTduMbAzukeKFClSpEuWli6d9qL6jfK7/L2Nkzauo/34BUiSxcj41EiRIkWKFOkY6Xo4dQJpK93vJkj/b0qkSJEiRZpS+s2lTTBoK92Pb9TLz30TvkVHxtseXsf2hRQpUqRIlyutCpfIPhvX0c8k0utsSxh1exgpUqRIkSKdGDkv4fUvRzya8VO8cS4kWiqJPCFTGBvZSJEiRYoU6RwJWQyo0k2WOEiRIkWKdGlS9biFnLHoDKkc8fBO5Xf5cGLN5ei7kApjio8+xYkUKVKkSJF+yUX2V71TlLJVKjcE1fJOuT+1MzZVK9dG36gN2ci9VZPA2P41vlqH1UJCihQpUqRIv0ZK5Jy8iVWrhnOWV9UpXi22I+m15mEFhApj2fIP6/QiRYoUKdLJ0pDTHI1RsW03XNtN3/4VyEGXpr2nd3zsskNIkSJFinRpUrUajpGuVOJtcBblYE5an61RgYe1FFKkSJEifQSpesPPViuRc3Ev9tqgr9KT+htjLYVx2D1HihQpUqQPIOV+KaRIkSJFel9SqYvz7vlctoZ075p75lM1mEOYlLM8SJEiRYr0rqSFTG0y1Luc0QiRvkqfM5Ygp3oDUqRIkSK9L2nIFG+FyoJIkSJFinReqfps46B8uI6OIdI66NnGkclDpDeed4IUKVKkSJcmNZ5tXBoHN6yJURoZ+6f6aY6wZYvxC29keGooUqRIkSL9WyoFALw5UsrVvGntX6TRU5zvx3DdnCkrlNK4vJHSndE9UqRIkSJNKf2lPYe4NyaRPOTRyDLQ2ZgCw/akZ1sM2OUPInfPkSJFihTpA0tlL3M926aqlMjZq3eqqmNOuFJlNleiT8ggRYoUKdKlSaXyzDmBtJP7hV607t/c6J3+8VwK67t3pDQ3/mVhNRGQIkWKFOnSpFPekHSKn1IFDylSpEiRLk0a9hBEl8jCN43WqPkNIPst4mZeXw4AAAAASUVORK5CYII= 1x, data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVIAAAJYCAMAAAAHeJ4mAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABjUExURUdwTOzaeuzZeeffgOzaeezaeu/XeOvZeu3ZeefXeOvXeOzXeOrZeevbfO/fgOzZee3YeezZeeraeuzZee3ZeezYeOvYee3ZeuzZeu/XeOvaeevYee3aeuzaeuzZeu3aeuzZeXI8SlUAAAAgdFJOUwBg3yC/nyCA3yBAYKBAEK9wUDDvz5Bw7+9Aj8DPkK9vKfAqYQAABslJREFUeNrt3dt2qkgUBVCNCIoRNfecvuX/v7Jfzxlj9eiiK0DozPWYgexd0/Jpp2CzKU37kbKZK/cfVdnXVW/LKx03SJEiRYoUKVKkSJEiRYoUKVKkSJEiRYoUKVKkSJFOSTrsQy7Lkr6fQi7FCz2kJb0UVx9S9dMI0hHfyWbRdHVbt6ksjxQpUqRIkSJFihQpUqRIkSJFihQpUqRIkSJFivRX0nPIdi2kpybk9+Lmn9Liz+XlU/Vm2NR9zwuTxmzrVnRX3QBSpEiRIkWKFClSpEiRIkWKFClSpEiRIkWKFClSpLOTPvYp8Z77piq3uhW1qc/y8fRjaukyCemIb+9Qt0+2K9+6SJEiRYoUKVKkSJEiRYoUKVKkSJEiRYoUKVKkSH+eaKWHff7Iraa8Fbd6SZX6CUj7VKgpn/HFdY4gvZtgk+dMoVee8zQTd6RIkSJFihQpUqRIkSJFihQpUqRIkSJFihQpUqRIP4u0OG1l/eNmHWmRIkWKFClSpEiRIkWKFClSpEiRIkWKFClSpEiRIl0f6XCqy7AS0rjO6ySk3zotUqRIkSJFihSpIEWKVJAiRSpIkSIVpEiRIi0g3aWsZaVDan6KuWF7SPmHiyvPkC6b+N7G/dJdIUWKFClSpEiRIkWKFClSpEiRIkWKFClSpEiRIkU6JeljE3JZts9r6umwGtKPL7h174sbRYoUKVKkSJEiRYoUKVKkSJEiRYoUKVKkSJEiRbpU9iGXOOPbpkzR0nsq1KyHNGXGB83WbUikSJEiRYoUKVKkSJEiRYoUKVKkSJEiRYoUKVKkSL8faa3zcS7SbrPqIEWKFClSpEiRIkWKFClSpEiRIkWKFClSpEiRIkX6WRm6lLjS53TlUEd6Sffs08cfuqq8LA09xdaNpOWnVbd1M+s7pEiRIkWKFClSpEiRIkWKFClSpEiRIkWKFClSpAvlkBJbPe9C4j2f0z1v6coh3fOvYr3XVKgpX/yueEn1zsWL6usKdXUbspniJ3pEihQpUqRIkSJFihQpUqRIkSJFihQpUqRIkSJFivRLk/Yp0fmpCYnD0Gu6svy7+y219FC8oiFVb2Ykrdy6cWS/7KN35zuTjBQpUqRIkSJFihQpUqRIkSJFihQpUqRIkSJFumbSbchtCtLnfWni2PS0r8qpfHKXRK5jSNNfFz+ZumTaup8DUqRIkSJFihQpUqRIkSJFihQpUqRIkSJFihQpUqSfSHpMmaLV5lCaOKD941CV5/JGE0hvju9fI5AiRYoUKVKkSJEiRYoUKVKkSJEiRYoUKVKkSP8vpC9dyFtcaboyPlb0lq5sihf6lD4+4hRk+ng3I6mn7CJFihQpUqRIkSJFihQpUqRIkSJFihQpUqRIkSL9D9mlRNJ4aC6SDumeQ7rymu75Wj7ji92P2Dop1aRTDGPviyfRMdu6rbv4AVqkSJEiRYoUKVKkSJEiRYoUKVKkSJEiRYoUKVKkSMdnaFJiV6c+ZFNH+pSqR+e2r8rDfKTznUwtP4HbbVYdpEiRIkWKFClSpEiRIkWKFClSpEiRIkWKFCnSb0F6DsmDxzjjG+Yi3adGH1a+Iacov+wDdZEiRYoUKVKkSJEiRYoUKVKkSJEiRYoUKVKkSJEi/Tqk8bGm8WzlMWWKloZU6M/1kK7lBPA9UqRIkSJFihQpUqRIkSJFihQpUqRIkSJFihQp0lWSPnYhL8v2eUs9NXORDql6N4J08Wf3lqabi7QdM3FHihQpUqRIkSJFihQpUqRIkSJFihQpUqRIkSL9tqTpcF4Tr9zVZQrSa+r+ufKmqfnzJKc9RxwsjTmuZOfPeIAWKVKkSJEiRYoUKVKkSJEiRYoUKVKkSJEiRYoUKdJ/IU1vaLykC4c+pbx+fBfksm9jfEgtPVWTVs7xK7duvyjpubJ7pEiRIkWKFClSpEiRIkWKFClSpEiRIkWKFClSpAWk55TiaWDzVtzUNRVqJ9AbUqFr5TCydpuN2LqHui9/OwHptq6lUQeVkSJFihQpUqRIkSJFihQpUqRIkSJFihQpUqRIkSKdnfQjPX71EO95rMtQp3dLfb6W68WepiEdM8peMnNuSKRIkSJFihQpUqRIkSJFihQpUqRIkSJFihQpUqQ/pwt5Xgtpn7q/lA8o08df6uy6PIxs10La1W3IZopf+BEpUqRIkSJFihQpUqRIkSJFihQpUqRIkSJFihTpL6TxIN6ypMMu5Eex3mta0aW8fKq+G0E6YuvORnpftyH3ddVH/G6RIkWKFClSpEiRIkWKFClSpEiRIkWKFClSpEiRIl2AdDilzEb6fqpK5ds5h/JKw99hwmlSA9AatAAAAABJRU5ErkJggg== 2x" type="image/png" />
+    
+      <source media="(min-width: 768px)" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHIAAAEsCAMAAAAo8Bd8AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAACxMAAAsTAQCanBgAAABdUExURUdwTOvbfOzZee/XeO3ZeevXeOzaeuvZeuzaeezaeufXeOzXeOffgOrZee/fgOzZeezYeO3Yeevaeeraeu3aeuzZeevYee3ZeuraeuzZeu/aeurYeOzaeu3ZeuzZedN+W7UAAAAedFJOUwBA3yDfQGCAv58gYCCgEFCQcI8wz+9w75CvMJCQgKx7++gAAAJxSURBVHja7d3LeoIwEIbhUJSDVhCP1R7u/zK7KRlap0kkArZ+/1Kf8EoXKYGZYIwrxYczT8adXBuUG0hISEgf+VK02alkYpNqw5d2eBFMShL3+X5knvGQkJCQ/chqaTPTyKJss1HHy/CzuT6Rc72BhISENMaY2UXWvrlv0WaumnKkxjfftimDzzf1zPU5JCTkXyN3dinYhJOyflSvwUpZf2rkIm7iXXlOGBISEvIHmX+liiPr9jj52kvePCkkJCTkJGQ1t1mNROrPSSAhIf8FWT3bhA9q5EZXD7Lz0GI+0t8IEhLygck6a/M+Fqk+n4CEhIQchkxs7UU5G4nMPHcAISEhIUcki0HnckhISMjvpFRxdKpet4k7ceQ8+Eozrg4PEhLyAcl2KSkFG6kU70tf09az6CztmNrJlGUdWpZyy7YHSEhIyA6pNgSc5FN1OrWtAQu1wK3RhufuwuNhGlshISHvj3S2I61mzujrXCnt2PToce+Tnr0QkJCQj0bmF+ksELPcmYNGVvJ9wT8vSEjIeySXtoy/szvQ2X7YaKP30vKp3kZLpTeAewWQkJDTkzyagYSEvENybRsCOvihdGYTR1J8AwkJOTW5lxktHYmk1hkSEnJw0nf9CAkJCTk4qb4hIJxMo7oEerXVx+0jAgkJCWmMSaUMw7O+1As2Bp2X2ZwOEhIyiGzLayN3yX1ztw6w/TAkJORvZGLL+K/YOltq/0+ac9R3cHQWxfWaTr01xpCQkJDGuBsC1GTulwHs5Ug3u9vHy7UgISFHJLdS+3/UoFdb+r/Vf6dNFkry+lRISMgxSd5WDwkJOQ0ZWftfa4PqT5TGz4lnTKAkAAAAAElFTkSuQmCC 1x, data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOQAAAJYCAMAAABFHrqYAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABgUExURUdwTOrZeevXeO/XeOzaeufXeO3ZeevZeuzaeuzaeeffgOzXeOzZeevbfO/fgO3YeeraeuzZee3ZeezZee3ZeuzYeOvYee/XeOzZeevYee3aeuzaeuvaeezZeu3aeuzZedAuePkAAAAfdFJOUwCgQCBgIN+An78gYN9AEHAwUM+v75BwQO/Az5CPr2/dNb3tAAAEZElEQVR42u3dyW7bShQEUFozo4iSLQ9v9v//ZYDAK6HycJ3WYFKn1pSuj1urRrO66347D+9N2XRNmdcnLTtISEhISEhISEhISEhISEhIyHtGvm1DjuXRq03Ia3n6kKZvz46MWbctb984HhISEhISEhISEhISEhISEhLyDNn2IX+VkU+7lPr4NL0fumtk0ba837sxBBISEhISEhISEhISEhISEhLyssi+kse2GfNZSH3z8o/0Jx2bdypPsxj58kJCQkJCQkJCQkJCQkJCQkLeGfKYXmucXQA5S4P6+u7WIqWIvISnnl3b8r5DQkJCQkJCQkJCQkJCQkJCQk4WOYLMISEhISEhISEhISEhISEhISEhx5DY0L+fGPITywsJCQkJCQkJCQkJCQkJCQkJeYYM30Iu0Zs/X6VcBxk7zDYT+xVBQkJCQkJCQkJCQkJCQkJCQo4q+9Smv5oY8qF8rA8SEhISEhISEhISEhISEhIS8gvkLVXk9xND1hcNEhISEhISEhISEhISEhISEhJyFMj1PWyxQkJCQkJCQkJCQkJCQkJCQkKOCnlch8Q7Og/rprzeELkof3zRtqP5HRISEhISEhISEhISEhISEhLy/3NasR8fekkV+Y/pyVjb/1/Z85wG9b+v+SCdjpm1/c/WbYvWNy5Z/NIlJCQkJCQkJCQkJCQkJCQkJOQEkU+pjD9uzNVr+2P+nIUcypwhTe+LyPfyFuttX4+d1ydBQkJCQkJCQkJCQkJCQkJCTh65qSRu4W03TdnW96zSpQH7zyBHkHnbTwYSEhISEhISEhISEhISEhISchLIVSXx2Nnfq6a81JXLkJl9V0hISEhISEhISEhISEhISMj7Rm5Scf4hjXlMT/bl0U/p4584ixYb/otIr/tCQkJCQkJCQkJCQkJCQkJCjg95elAqImMZ/5Ce3KfDV8/13a1f9O5XE89+Fc/WuWUCEhISEhISEhISEhISEhISEnK8yFjwH+XzWVMON0TGrLvRBhISEhISEhISEhISEhISEhLyI5tdyGFiyCyHhISEhISEhISEhISEhISEhIS8SoZUnP/vxJCt+5SQkJCQkJCQkJCQkJCQkJCQkF809dr+SyBzbf915OtrIfMFDJCQkJCQkJCQkJCQkJCQkJCQZ0is7X9p/NJU5b+7IbK72qJBQkJCQkJCQkJCQkJCQkJCQt4X8rR3/3BTzyFdBfDUjDx9bHZT5K7tlVtISEhISEhISEhISEhISEhIyJ/Zp979+QU8Qxq0r3vSlldfRMYsLoC85vWikJCQkJCQkJCQkJCQkJCQkJDjRy4rGdo8j+nN0ee6J/5N3RfLNRcNEhISEhISEhISEhISEhISErI5s1Smfyx7Vunjr/Xxsct/ODdy3bZofeP4+KVLSEhISEhISEhISEhISEhISMhfZUht+v+UPc/pmNaxPj5N/3Z25EPbojXeyvCJnjdISEhISEhISEhISEhISEhIyPtGvm2b0tgdN9QnDT8Aby5YtiUSrxYAAAAASUVORK5CYII= 2x" type="image/png" />
+    
+      <source media="(max-width: 767px)" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAACxCAMAAABQrgukAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAACxMAAAsTAQCanBgAAABvUExURUdwTO/XeOfXeOzZeezaeuvbfOzXeOvZeuzaee3ZeevXeOrZeezaeuffgO/fgOzZeeraeu3ZeuvYee/aeu3ZeezYeOzZeevaee3Yee/XeOzZeezZeuzZeu7ZeuvYeerYeOzaeu3aeuvXeO3ZeuzZeUggH0MAAAAkdFJOUwAgIN+fQGCAv99AoGAgEFAw73Awz5Cvj3BA7++vr8CQkG+Af2e16ncAAAInSURBVGje7ZvrcoIwEIVRkSRoiQp4aW3txfd/xpoN025YLkHQSmfPL4esn5lJ2GRPYhBUSp3LkjRo0dzMoHuDdGSEcc+h0Q4HHSBo2wiykqRfMxokGDQIaAMjleGxW4ISPMAQ9BW0S5B+nafBNWLQYKD2iWI1p7glg/4c9BYbrepACTRrDMqk0bIMCn3m1IT2SzCoCyiDZBn5gBIIDV+qQaJzQlAMugqklNp3BklltHZAPbRg0COCdk4uJUoh+058pstQfWdQ435WGKn+oKo8waDBQU+g/qCGNZlB4wDpqVHSHxT3mNIMqio0hYgpKIdUa9e+WBAl1aWooKDpVTUtg9pB4dzI1o4T2MlIOywraAgd8w81Fz9dfLupOupkRDHojqBLLj3BxzUUKpJWLcW4Q9p1JtA7CpLlGTfr4x4zqB2URr/S2GGPaINVDjaC8rDqO2zoGNQJZJNloQAlWSzHxXuFhKv4FRk9iJejkYK2kEtjbMbaDRA+rcRHmiHeH6VFJubN6B1BlzHQFPSBziztaaUjj6KSC7/Rg9hkGQnInlnG7IyOEZSjM8ta0AHycdrf8/c/qWHQj6Neu9wtoLDf19nwRz45/g8gBYWlFy6xrh9f93gUUAbe+aYWAc05RmzhUVwG8dWq24OUqwqfIIG86tzOsrG646vO1xjHBToSn31GffY9BIUeaz9fYr4xCN8bKd5Tmok1PJL8h4FHAVkLHWtHgz5x8ze6TRAXKYoPiAAAAABJRU5ErkJggg== 1x, data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAAFiCAMAAAAutaEsAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABpUExURUdwTOffgOvXeOzZeevZeu3ZeevbfOzaeezaeuzaeuzXeOfXeO/XeOrZee/fgOzZeeraeuzZee3ZeuzYeO3aeuvaeezZeuzZeevYeevYeOvYee3Zeezaeuraeu7Zeu3Yee/XeO3aeuzZeWOXnX0AAAAidFJOUwAgQN+A30C/YJ9gICCgEFAw7++Qz4/vr3CwwM+QkK9wQG9t8flSAAAC/0lEQVR42u3d23aiQBCFYYYoB4OiUZPMMTN5/4ecC7MWmzUpqQYa0Pn3ZSK1PrnRbrrKJAnI+t2RwlOpsK5eJYAAAQIECFBE0LFsklsly6JJbVVKpVLZH+R6j5oHVylAgAABAgRoFlCVSizQIZfszU9aSZWMEs/dek+T6QIIECBAgCKCvlzPzreklTyZS1pf2Y63lQffra3nbpWAAAECBAhQTNDLqskmGFTL1aUF+i4vWnWCimSsZK7vJYAAAQIECNAIoIdHyW40UKJlT0GgCTYAckCAAAECdB+gy9O+cgLQT3m6eLJB86QABAgQIECAZgdlepo1+OpqI+GmAwIECBCg/xe09i2GAQECBAgQoCWBKmmBLJ4XAOrz1BQQIECAAAG6CdA3bXVcAqhM5gkgQIAAAZod9NHF6AJpb+TxkyLX4wR1HGhqgR6vFxmnrRQQIECAAAHqBTpoE+Ned2H1H9rwsdd/mNN19EXm4Bx9Udq78yXa/CFAgAABAgQoEHRpaEz1j0+yQG2tmHPPVJ9XbZS0DLUugtugjw9118yGCSfnAgIECBCgxYNyI2ct8yt3xFyg7rMm5y7QFMk99xcQIECAAAHqCdqVRl615LF0JLNAv6VPcsv3IUCAAAECdL8g9qkBAQIECNCdgKx91J1snWZ6XKfWK0yQdXV7SSvZcMIKECBAgADdPOiyK1q7QC+y2Vr8W6Qj4/yIJL1BgAABAgTobkGtAAIECBAgQMsFVXoSZwmj61ph2iAgQIAAAbp1kE6rWw0CZfpYcxzcsCnwEWbIAwIECBCgqUBhc+WatFr4XVfoGLs/Nijk5NGw8GulgAABAgQoJsgcXTcsrcF36xBQ+Glh3wK1xy43IECAAAECNBxkjq5z5Yc1lU7z1Z5v16EP37Pdem7KlfcJCBAgQICWDuoYRHf2fYhKzAXqScq+RV4lj9n5AggQIECAAE0EyvSQrGU4uJomtVLdGxRtZgMgQIAAAQIUETThcD9AgAABAgQoCsg149y1QE2tq+u/HQ82HYJd+swAAAAASUVORK5CYII= 2x" type="image/png" />
+      <img class="collection-background" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAACxCAMAAABQrgukAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAACxMAAAsTAQCanBgAAABvUExURUdwTO/XeOfXeOzZeezaeuvbfOzXeOvZeuzaee3ZeevXeOrZeezaeuffgO/fgOzZeeraeu3ZeuvYee/aeu3ZeezYeOzZeevaee3Yee/XeOzZeezZeuzZeu7ZeuvYeerYeOzaeu3aeuvXeO3ZeuzZeUggH0MAAAAkdFJOUwAgIN+fQGCAv99AoGAgEFAw73Awz5Cvj3BA7++vr8CQkG+Af2e16ncAAAInSURBVGje7ZvrcoIwEIVRkSRoiQp4aW3txfd/xpoN025YLkHQSmfPL4esn5lJ2GRPYhBUSp3LkjRo0dzMoHuDdGSEcc+h0Q4HHSBo2wiykqRfMxokGDQIaAMjleGxW4ISPMAQ9BW0S5B+nafBNWLQYKD2iWI1p7glg/4c9BYbrepACTRrDMqk0bIMCn3m1IT2SzCoCyiDZBn5gBIIDV+qQaJzQlAMugqklNp3BklltHZAPbRg0COCdk4uJUoh+058pstQfWdQ435WGKn+oKo8waDBQU+g/qCGNZlB4wDpqVHSHxT3mNIMqio0hYgpKIdUa9e+WBAl1aWooKDpVTUtg9pB4dzI1o4T2MlIOywraAgd8w81Fz9dfLupOupkRDHojqBLLj3BxzUUKpJWLcW4Q9p1JtA7CpLlGTfr4x4zqB2URr/S2GGPaINVDjaC8rDqO2zoGNQJZJNloQAlWSzHxXuFhKv4FRk9iJejkYK2kEtjbMbaDRA+rcRHmiHeH6VFJubN6B1BlzHQFPSBziztaaUjj6KSC7/Rg9hkGQnInlnG7IyOEZSjM8ta0AHycdrf8/c/qWHQj6Neu9wtoLDf19nwRz45/g8gBYWlFy6xrh9f93gUUAbe+aYWAc05RmzhUVwG8dWq24OUqwqfIIG86tzOsrG646vO1xjHBToSn31GffY9BIUeaz9fYr4xCN8bKd5Tmok1PJL8h4FHAVkLHWtHgz5x8ze6TRAXKYoPiAAAAABJRU5ErkJggg=="
+        loading="lazy" />
+    </picture>
+    </div>
+</section>
+      <div class="order-bg"></div>
+<section id="order"
+class="order-section container">
+    <div class="order-form-wrapper">
+  <h2 class="order-text">
+    <span class="accented">Your order</span>
+     is our priority: Personalized approach and quality of service
+</h2>
+<form class="order-form">
+<label class="order-form-input-wrapper" for="user_name">
+<input type="text"
+class="order-form-field"
+name="user-name"
+id="user_name"
+placeholder="Enter your full name"
+required
+pattern="[a-zA-Z-а-яА-ЯіІїЇєЄґҐйЙ']+"
+title="Michael"/>
+</label>
+
+<label class="order-form-input-wrapper" for="user_email">
+<input type="email"
+class="order-form-field"
+name="user-email"
+id="user_email"
+placeholder="Enter your email"
+required />
+</label>
+
+<label class="order-form-wrapper" for="user_comment">
+<textarea class="order-form-comment"
+name="user-comment" 
+id="user_comment"
+placeholder="Comments"></textarea>
+</label>
+
+<button class="order-form-btn"
+type="submit">
+Send
+<svg class="order-form-icon"
+ width="26" height="20">
+<use href="/Kryptonite-Breakers/assets/icons-eaea8ff6.svg#icon-arrow"></use>
+</svg>
+</button>
+</form>
+
+ <div class="order-image-container mobile-hidden tablet-visible">
+  <img 
+     class="order-image"
+     srcset="/Kryptonite-Breakers/assets/girl-order-tab-d636af69.jpg 638w, /Kryptonite-Breakers/assets/girl-order-desk-6487c236.jpg 524w, /Kryptonite-Breakers/assets/girl-order-tab@2x-1bb7fd15.jpg 1276w, /Kryptonite-Breakers/assets/girl-order-desk@2x-0fd365f1.jpg 1048w"
+     sizes="(min-width: 1280px) 524px, (min-width: 768px) 638px"
+    src="/Kryptonite-Breakers/assets/girl-order-desk-6487c236.jpg"
+     alt="picture with an example of Vyshyvanka style"
+   />
+   </div>
+   <div class="another-order-bg mobile-hidden tablet-visible"></div>
+</div>
+</section>
+
+      <section id="testimonians">
+  <div class="testimonians-container container">
+    <div class="testimonials-main">
+      <h2 class="testimonians-title">Testimonians</h2>
+    </div>
+    <div class="card">
+      <ul class="testimonians-list">
+        <li class="testimonians-item">
+          <div class="testimonials-card">
+            <img
+              class="testimonials-image"
+              srcset="/Kryptonite-Breakers/assets/maria-tkachuk@2x-e2c07c1c.png 2x"
+              width="64"
+              height="64"
+              src="/Kryptonite-Breakers/assets/maria-tkachuk-bc89d055.png"
+              alt="foto maria-tkachuk"
+            />
+            <div class="testimonials-content">
+              <h3 class="testimonials-name">Maria Tkachuk</h3>
+              <p class="testimonials-text">
+                I was pleasantly surprised by the variety of embroidery offered
+                by Vyshyvanka Vibes. They have models for every taste - from
+                classic to modern. I bought an embroidered dress to celebrate a
+                special occasion and received impeccable service and refinement
+                in every detail.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="testimonians-item">
+          <div class="testimonials-card">
+            <img
+              class="testimonials-image"
+              srcset="/Kryptonite-Breakers/assets/sergey-rybachok@2x-66daa140.png 2x"
+              width="64"
+              height="64"
+              src="/Kryptonite-Breakers/assets/sergey-rybachok-e29bd683.png"
+              alt="foto sergey-rybachok"
+            />
+            <div class="testimonials-content">
+              <h3 class="testimonials-name">Sergey Rybachok</h3>
+              <p class="testimonials-text">
+                Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka
+                are simply masterpieces! I fell in love with the quality of the
+                materials and the skill of the artisans behind each product.
+                This is my favorite embroidery shop where I always find
+                something special and unique.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="testimonians-item">
+          <div class="testimonials-card">
+            <img
+              class="testimonials-image"
+              srcset="/Kryptonite-Breakers/assets/natalia-chatuk@2x-339ae942.png 2x"
+              width="64"
+              height="64"
+              src="/Kryptonite-Breakers/assets/natalia-chatuk-b0939af6.png"
+              alt="foto natalia-chatuk"
+            />
+            <div class="testimonials-content">
+              <h3 class="testimonials-name">Natalia Chatuk</h3>
+              <p class="testimonials-text">
+                Vyshyvanka Vibes is a real find for everyone who appreciates
+                Ukrainian culture. Their embroidery reflects the spirit and
+                traditions of our people. I not only buy embroidered shirts for
+                myself, but also give them to my friends abroad as a symbol of
+                our beauty and national pride.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    </main>
+    
+  </body>
+</html>
