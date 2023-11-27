@@ -1,5 +1,4 @@
 .collection-container {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,6 +66,9 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .collection-container {
+    position: relative;
+  }
     .collection-list-item {
             width: calc((100% - 40px) / 3);
     
