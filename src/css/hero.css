@@ -67,13 +67,15 @@
     font-size: 16px;
     line-height: normal;
     letter-spacing: -0.04em;
+    max-width: 115px;
 }
 
 .hero-icon-container {
     text-align: center;
     margin-top: 60px;
-    width: 115px;
 }
+
+
 
 .hero-end-img {
     position: absolute;
@@ -103,6 +105,7 @@
     .hero-title {
         font-size: 54px;
         line-height: 1.19;
+        width: 549px;
     }
 
     .hero-container {
@@ -163,7 +166,6 @@
     .hero-title {
         font-size: 64px;
         line-height: 1.16;
-        width: 632px;
     }
 
     .hero-container {
@@ -179,6 +181,12 @@
 
     .hero-end-img {
         size: content-box;
+    }
+
+    .hero-end-img {
+        position: absolute;
+        bottom: 50px;
+        right: 100px;
     }
 
 }
