@@ -128,8 +128,6 @@ screen and (min-device-pixel-ratio: 2) {
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
-       
-
     }
 
     .order-bg {
@@ -184,6 +182,7 @@ screen and (min-device-pixel-ratio: 2) {
 .order-image-container {
     width: 100%;
     margin-top: 100px;
+    margin-bottom: 80px;
    
 }
   
@@ -193,7 +192,7 @@ screen and (min-device-pixel-ratio: 2) {
     width: 324px;
     height: 484px;
     left: 0;
-    bottom: -96px;
+    bottom: 0;
     background-image: url(/img/bg-elements/bg-el-order-tab.png);
     background-size: cover;
 }
@@ -240,6 +239,8 @@ screen and (min-device-pixel-ratio: 2) {
 
 .order-image-container {
     order: 1;
+    margin-top: 0;
+    margin-bottom: 0;
 
 }
 
