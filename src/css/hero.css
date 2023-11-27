@@ -5,10 +5,7 @@
 .hero-container {
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
 }
-
-
 
 .hero-title-img {
     border-radius: 4px;
@@ -16,14 +13,11 @@
 }
 
 .hero-title {
-    color: var(--white, #FCF9F9);
+    color: #FCF9F9;
     font-size: 44px;
     line-height: 1.23;
     letter-spacing: -0.03em;
-    margin-top: 60px;
 }
-
-
 
 .hero-title-color {
     color: #ECD979;
@@ -39,7 +33,7 @@
     gap: 10px;
     border: 1px solid rgba(252, 249, 249, 0.10);
     background-color: rgba(0, 0, 0, 0);
-    color: color var(--white, #FCF9F9);
+    color: #FCF9F9;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -72,16 +66,14 @@
 
 .hero-icon-container {
     text-align: center;
-    margin-top: 60px;
 }
-
-
 
 .hero-end-img {
     position: absolute;
     bottom: 50px;
     right: 100px;
 }
+
 
 @media (max-width: 768px) {
     .hero-end-img {
@@ -101,7 +93,7 @@
 
 }
 
-@media (min-width: 768px) and (max-width: 1279px) {
+@media (min-width: 768px) {
     .hero-title {
         font-size: 54px;
         line-height: 1.19;
@@ -114,12 +106,8 @@
         padding-left: 0;
     }
 
-
-
     .hero-title-img {
         order: 1;
-        width: 100%;
-        height: auto;
         display: block;
         width: 413px;
         height: 575px;
@@ -128,13 +116,13 @@
     .hero-icon-container {
         position: absolute;
         right: 32px;
-
+        top: 0;
     }
 
     .hero-end-img {
         position: absolute;
-        bottom: 0;
         right: 23px;
+        bottom: 0;
     }
 
     .hero-text {
@@ -143,50 +131,45 @@
 
 }
 
-@media (min-width: 1280px) and (max-width: 1440px) {
+@media (min-width: 1280px) {
     .hero-title {
         font-size: 54px;
         line-height: 1.19;
+        width: 518px;
     }
 
     .hero-container {
         display: flex;
-        flex-direction: initial;
+        flex-direction: row-reverse;
         gap: 40px;
-    }
-}
-
-
-
-
-@media (min-width: 1440px) {
-
-
-
-    .hero-title {
-        font-size: 64px;
-        line-height: 1.16;
-    }
-
-    .hero-container {
-        display: flex;
-        flex-direction: initial;
-        gap: 40px;
-        width: 1440px;
-    }
-
-    .hero-icon-container {
-        margin-left: 61px;
-    }
-
-    .hero-end-img {
-        size: content-box;
     }
 
     .hero-end-img {
         position: absolute;
+        right: 23px;
         bottom: 50px;
-        right: 100px;
     }
 
+}
+
+@media (min-width: 1440px) {
+
+    .hero-title {
+        font-size: 64px;
+        line-height: 1.16;
+        width: 630px;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 40px;
+        width: 1440px;
+    }
+
+    .hero-end-img {
+        position: absolute;
+        right: 23px;
+        bottom: 50px;
+    }
 }
