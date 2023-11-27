@@ -13,7 +13,7 @@
    
     .card {
         display: flex;
-        width: 291px;
+        width: 100%;
         padding-top: 24px;
         flex-direction: column;
         align-items: center;
@@ -46,6 +46,7 @@
         align-items: center;
         row-gap: 8px;
         margin-top: 54px;
+        width: 291px;
     }
     .testimonials-text {
     color: rgba(252, 249, 249, 0.40);
@@ -138,7 +139,7 @@
         }
     
     }
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1440px) {
         .testimonians-container {
             width: 1440px;
         }
