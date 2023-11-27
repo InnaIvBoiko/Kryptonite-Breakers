@@ -3,8 +3,10 @@
     <symbol id="icon-arrow" viewBox="0 0 32 32">
       <path d="M26.777 17.957a42.712 42.712 0 0 1-.337-3.49c-.022-1.04.017-1.94.119-2.7L1.266 26.37.069 24.297 25.362 9.694a22.284 22.284 0 0 1-2.426-1.297 48.166 48.166 0 0 1-2.825-1.988l1.519-.877c3.209 1.349 6.143 2.024 8.804 2.023l.513.888c-1.35 2.271-2.233 5.149-2.65 8.636l-1.519.877z"/>
     </symbol>
-    <symbol id="icon-burger-menu" viewBox="0 0 32 32">
-      <path stroke-linecap="round" stroke-width="1.778" d="M5.759 8.97h25.353M5.759 21.899h25.353M13.411 15.434h17.701"/>
+    <symbol id="icon-burger-menu" viewBox="0 0 48 32">
+      <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M8.638 5.455h38.029"></path>
+      <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M8.638 24.849h38.029"></path>
+      <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M20.116 15.151h26.551"></path>
     </symbol>
     <symbol id="icon-close" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.778" d="M24 8 8 24M8 8l16 16"/>
