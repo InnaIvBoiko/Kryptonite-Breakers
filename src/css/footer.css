@@ -109,9 +109,9 @@
 .footer-wrap {
     max-width: 1280px;
     height: 363px;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
 }
 .footer-slogan {
     font-size: 64px;
@@ -123,8 +123,7 @@
 }
 .footer-bg-element {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    right: -80px;
     background-image: url(../img/bg-elements/bg-el-footer-desk.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -140,12 +139,10 @@
 }
 @media screen and (min-width:1440px) {
 .footer-wrap {
-    max-width: 1440px;
+    width: 1440px;
     }
 .footer-bg-element {
     position: absolute;
-    bottom: 0;
-    right: 0;
     background-image: url(../img/bg-elements/bg-el-footer-desk-xl.png);
     background-size: cover;
     background-repeat: no-repeat;
