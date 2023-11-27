@@ -1,4 +1,5 @@
 .collection-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,5 +78,8 @@
         }
         .collection-list-item:nth-child(-n+3) {
             margin-bottom: 40px;
+        }
+        .collection-background {
+              left: -68px;
         }
 }
