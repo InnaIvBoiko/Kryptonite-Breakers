@@ -6,20 +6,18 @@
                 <p class="about-us-second-text about-us-text">In "Vyshyvanka Vibes" you will find various models of embroidery, from classic to modern, corresponding to the latest fashion trends. Our embroidery is made using natural fabrics and is embroidered by highly qualified craftsmen who convey the beauty of Ukrainian culture in every detail.We believe that vyshyvanka is not just clothing, but a symbol of national pride, the heritage of our ancestors and a way of expressing one's individuality. Each embroidery from "Vyshyvanka Vibes" has its own unique history and symbolism, which gives it a special meaning.</p>
         </div>
         <div class="about-img-thumb">
-            <img class="about-us-img" srcset="
-        ./img/about/vyshyvanka-about-mob.jpg 335w, 
-        ./img/about/vyshyvanka-about-tab.jpg 704w,
-        ./img/about/vyshyvanka-about-desk.jpg 594w,
-        ./img/about/vyshyvanka-about-desk-xl.jpg 709w,
-        ./img/about/vyshyvanka-about-mob@2x.jpg 670w,
-        ./img/about/vyshyvanka-about-tab@2x.jpg 1408w,
-        ./img/about/vyshyvanka-about-desk@2x.jpg 1188w,
-        ./img/about/vyshyvanka-about-desk-xl@2x.jpg 1418w"  
-        sizes="(min-width: 1440px) 709px,
-                (min-width: 1280px) 594px,
-                (min-width: 768px) 704px,
-                (max-width: 767px) 335px"
-            src="./img/about/vyshyvanka-about-mob.jpg" alt="embroidered sleeve" >
+            <picture>
+                <source media="(min-width: 1440px)" srcset="./img/about/vyshyvanka-about-desk-xl.jpg 1x, ./img/about/vyshyvanka-about-desk-xl@2x.jpg 2x" type="image/jpg" />
+                <source media="(min-width: 1280px)" srcset="./img/about/vyshyvanka-about-desk.jpg 1x,
+                ./img/about/vyshyvanka-about-desk@2x.jpg 2x" type="image/jpg" />
+                <source media="(min-width: 768px)" srcset="./img/about/vyshyvanka-about-tab.jpg 1x,
+                ./img/about/vyshyvanka-about-tab@2x.jpg 2x" type="image/jpg" />
+                <source media="(max-width: 767px)" srcset="./img/about/vyshyvanka-about-mob.jpg 1x,
+                ./img/about/vyshyvanka-about-mob@2x.jpg 2x" type="image/jpg" />
+
+                <img class="about-us-img" 
+                src="./img/about/vyshyvanka-about-mob.jpg" alt="embroidered sleeve" loading="lazy" />
+            </picture>
         </div>
         <div class="background-container">
         </div>
