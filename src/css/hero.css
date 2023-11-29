@@ -22,12 +22,10 @@
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 40px;
+  transition: border-color 250ms linear;
 }
 
-.hero-link:hover {
-  border-color: #ecd979;
-}
-
+.hero-link:hover,
 .hero-link:focus {
   border-color: #ecd979;
 }

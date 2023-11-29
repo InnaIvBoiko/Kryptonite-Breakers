@@ -32,6 +32,12 @@
 
   .footer-menu-link {
     display: block;
+    transition: color 250ms linear;
+  }
+
+  .footer-menu-link:hover,
+  .footer-menu-link:focus {
+    color: #ecd979;
   }
 
   .footer-menu-item {
