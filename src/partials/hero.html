@@ -1,21 +1,22 @@
 <section class="hero" id="hero">
   <div class="container hero-container">
-    <img
-      class="hero-title-img"
-      srcset="
-        ./img/hero/girl-hero-mob.jpg     335w,
-        ./img/hero/girl-hero-mob@2x.jpg  670w,
-        ./img/hero/girl-hero-tab.jpg     413w,
-        ./img/hero/girl-hero-tab@2x.jpg  826w,
-        ./img/hero/girl-hero-desk.jpg    392w,
-        ./img/hero/girl-hero-desk@2x.jpg 784w
-      "
-      sizes="(min-width: 1280px) 392px, (min-width: 768px) 413px"
-      src="./img/hero/girl-hero-mob.jpg"
-      width="335"
-      height="545"
-      alt="girl in vyshyvanka"
-    />
+        <picture>
+                <source media="(min-width: 1280px)" srcset="
+                                                  ./img/hero/girl-hero-desk.jpg       1x,
+                                                  ./img/hero/girl-hero-desk@2x.jpg    2x
+                                                " type="image/jpg" />
+
+                <source media="(min-width: 768px)" srcset="
+                                  ./img/hero/girl-hero-tab.jpg    1x,
+                                  ./img/hero/girl-hero-tab@2x.jpg 2x
+                                " type="image/jpg" />
+            
+                <source media="(max-width: 767px)" srcset="
+                                  ./img/hero/girl-hero-mob.jpg    1x,
+                                  ./img/hero/girl-hero-mob@2x.jpg 2x
+                                " type="image/jpg" />
+                <img class="hero-title-img" src="./img/hero/girl-hero-mob.jpg" alt="girl in vyshyvanka" loading="lazy" />
+            </picture>
     <div class="hero-title-container">
       <h1 class="hero-title">
         Reviving the traditional
@@ -31,7 +32,7 @@
     <div class="hero-icon-img">
       <div class="hero-icon-container">
         <svg class="hero-icon" width="52" height="51">
-          <use href="./pictures/icons.svg#icon-star"></use>
+          <use href="./img/icons.svg#icon-star"></use>
         </svg>
         <p class="hero-text">all embroidery is made by hand</p>
       </div>
