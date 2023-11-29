@@ -2,13 +2,16 @@
   display: none;
 }
 
+.testimonials-section {
+  padding-top: 80px;
+}
+
 .testimonians-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 40px;
-  margin-top: 80px;
 }
 
 .card {
@@ -64,8 +67,8 @@
     display: flex;
   }
 
-  .testimonians-container {
-    margin-top: 100px;
+  .testimonials-section {
+    padding-top: 100px;
   }
 
   .testimonials-item {
@@ -91,8 +94,8 @@
     display: flex;
   }
 
-  .testimonians-container {
-    margin-top: 150px;
+  .testimonials-section {
+    padding-top: 150px;
   }
 
   .testimonials-item {
