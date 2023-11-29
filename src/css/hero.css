@@ -53,7 +53,7 @@
   display: none;
 }
 
-.hero-title-img {
+.hero-title-picture {
   order: 1;
 }
 
@@ -118,7 +118,7 @@
     max-width: 632px;
     margin-top: 66px;
   }
-  
+
   .hero-icon-img {
     left: 1200px;
     gap: 226px;

@@ -17,18 +17,18 @@
   border-radius: 4px;
 }
 .collection-item-title {
-    margin-bottom: 8px;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 1em;
-        letter-spacing: 0.05em;
-        text-align: left;
-    text-transform: uppercase;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1em;
+  letter-spacing: 0.05em;
+  text-align: left;
+  text-transform: uppercase;
 }
 .collection-item-price {
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.00;
+  line-height: 1;
   letter-spacing: 0.05em;
   text-align: left;
   color: rgba(252, 249, 249, 0.4);
@@ -41,45 +41,35 @@
 }
 
 @media screen and (min-width: 768px) {
-    .collection-list {
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
-        .collection-list-item {
-            width: calc((100% - 20px) / 2);
-            
-        }
-                .collection-item-title {
-                    font-size: 18px;
-                    word-spacing: -1px;
-                    overflow: hidden;
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
-                }
-                                .collection-item-price {
-                                    font-size: 18px;
-                                }
-                                                                .collection-background {
-                                                                   
-                                        
-                                                                    top: 221px;
-                                                                    
-                                                                }
+  .collection-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .collection-list-item {
+    width: calc((100% - 20px) / 2);
+  }
+  .collection-item-title {
+    font-size: 18px;
+    word-spacing: -1px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .collection-item-price {
+    font-size: 18px;
+  }
+  .collection-background {
+    top: 221px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
- 
-    .collection-list-item {
-            width: calc((100% - 40px) / 3);
-    
-        }
-        .collection-list {
-            display: flex;
-            justify-content: space-between;
-            gap: 40px 20px;
-        }
-       
-        .collection-background {
-              left: -68px;
-        }
+  .collection-list-item {
+    width: calc((100% - 40px) / 3);
+  }
+  .collection-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px 20px;
+  }
 }
