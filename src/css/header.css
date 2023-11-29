@@ -1,11 +1,10 @@
 .header-container {
   max-width: 375px;
   padding: 20px 20px 60px 20px;
-  margin:0 auto;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .header-navigation {
@@ -44,6 +43,7 @@
   opacity: 0.8;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background: rgba(252, 249, 249, 0.1);
+  transition: border-color 250ms linear, background-color 250ms linear;
 }
 
 .header-svg-link:hover,
@@ -186,8 +186,7 @@ div.header-mobile-menu .header-mobile-menu-list {
 @media screen and (min-width: 768px) {
   .header-container {
     max-width: 768px;
-    padding: 20px  32px 80px 32px;
-    
+    padding: 20px 32px 80px 32px;
   }
 
   .header-icon-burger-menu {
@@ -253,6 +252,12 @@ div.header-mobile-menu .header-mobile-menu-list {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.28;
+    transition: color 250ms linear;
+  }
+
+  .header-menu-link:hover,
+  .header-menu-link:focus {
+    color: #ecd979;
   }
 
   .header-contacts {
@@ -272,7 +277,14 @@ div.header-mobile-menu .header-mobile-menu-list {
     line-height: 1.4;
     text-transform: uppercase;
     font-style: normal;
+    transition: border-color 250ms linear;
   }
+
+  .header-phone-link:hover,
+  .header-phone-link:focus {
+    border-color: #ecd979;
+  }
+
   .backdrop {
     display: none;
   }
