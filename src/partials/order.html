@@ -45,16 +45,21 @@ Send
 </form>
 
  <div class="order-image-container mobile-hidden tablet-visible">
-  <img 
-     class="order-image"
-     srcset="./img/order/girl-order-tab.jpg      638w,
-     ./img/order/girl-order-desk.jpg             524w,
-     ./img/order/girl-order-tab@2x.jpg           1276w,
-     ./img/order/girl-order-desk@2x.jpg          1048w"
-     sizes="(min-width: 1280px) 524px, (min-width: 768px) 638px"
+  <picture>
+     <source media="(min-width: 1280px)" srcset="./img/order/girl-order-desk.jpg 1x,
+     ./img/order/girl-order-desk@2x.jpg 2x" 
+     type="image/jpg" />
+     <source media="(min-width: 768px)" srcset="./img/order/girl-order-tab.jpg 1x,
+     ./img/order/girl-order-tab@2x.jpg 2x"
+     type="image/jpg" />
+
+    <img class="order-image"
     src="./img/order/girl-order-desk.jpg"
      alt="picture with an example of Vyshyvanka style"
-   />
+     loading="lazy"
+   /> 
+     </picture>
+     
    </div>
    <div class="another-order-bg mobile-hidden tablet-visible"></div>
 </div>
