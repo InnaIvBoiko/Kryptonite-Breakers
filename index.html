@@ -353,13 +353,19 @@ Send
 </form>
 
  <div class="order-image-container mobile-hidden tablet-visible">
-  <img 
-     class="order-image"
-     srcset="/Kryptonite-Breakers/assets/girl-order-tab-d636af69.jpg 638w, /Kryptonite-Breakers/assets/girl-order-desk-6487c236.jpg 524w, /Kryptonite-Breakers/assets/girl-order-tab@2x-1bb7fd15.jpg 1276w, /Kryptonite-Breakers/assets/girl-order-desk@2x-0fd365f1.jpg 1048w"
-     sizes="(min-width: 1280px) 524px, (min-width: 768px) 638px"
+  <picture>
+     <source media="(min-width: 1280px)" srcset="/Kryptonite-Breakers/assets/girl-order-desk-6487c236.jpg 1x, /Kryptonite-Breakers/assets/girl-order-desk@2x-0fd365f1.jpg 2x" 
+     type="image/jpg" />
+     <source media="(min-width: 768px)" srcset="/Kryptonite-Breakers/assets/girl-order-tab-d636af69.jpg 1x, /Kryptonite-Breakers/assets/girl-order-tab@2x-1bb7fd15.jpg 2x"
+     type="image/jpg" />
+
+    <img class="order-image"
     src="/Kryptonite-Breakers/assets/girl-order-desk-6487c236.jpg"
      alt="picture with an example of Vyshyvanka style"
-   />
+     loading="lazy"
+   /> 
+     </picture>
+     
    </div>
    <div class="another-order-bg mobile-hidden tablet-visible"></div>
 </div>
